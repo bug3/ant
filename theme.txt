@@ -7,3 +7,7 @@ terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
 terminal-height: "100%"
+
++ boot_menu {
+
+}
