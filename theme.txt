@@ -11,3 +11,7 @@ terminal-height: "100%"
 + boot_menu {
 
 }
+
++ progress_bar {
+
+}
