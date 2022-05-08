@@ -1,7 +1,7 @@
 title-text: ""
 desktop-image: "background.jpg"
 desktop-color: "#000000"
-terminal-font: ""
+terminal-font: "Rubik Glitch Regular 47"
 terminal-border: "0"
 terminal-left: "0"
 terminal-top: "0"
@@ -13,7 +13,7 @@ terminal-height: "100%"
     top = 13%
     width = 54%
     height = 74%
-    item_font = ""
+    item_font = "Rubik Glitch Regular 47"
     item_color = "#CCCCCC"
     selected_item_color = "#3BB3FB"
     icon_width = 59
