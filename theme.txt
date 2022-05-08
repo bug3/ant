@@ -9,7 +9,19 @@ terminal-width: "100%"
 terminal-height: "100%"
 
 + boot_menu {
-
+    left = 19%
+    top = 13%
+    width = 54%
+    height = 74%
+    item_font = ""
+    item_color = "#CCCCCC"
+    selected_item_color = "#3BB3FB"
+    icon_width = 59
+    icon_height = 59
+    item_icon_space = 37
+    item_height = 73
+    item_padding = 5
+    item_spacing = 19
 }
 
 + progress_bar {
