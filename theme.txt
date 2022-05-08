@@ -25,5 +25,13 @@ terminal-height: "100%"
 }
 
 + progress_bar {
-
+    id = "__timeout__"
+    left = 19%
+    top = 87%
+    width = 45%
+    height = 5%
+    show_text = false
+    fg_color = "#3BB3FB"
+    bg_color = "#2C2C2C"
+    border_color = "#FFFFFF"
 }
