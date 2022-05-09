@@ -14,7 +14,7 @@ terminal-height: "100%"
     width = 54%
     height = 74%
     item_font = "Rubik Glitch Regular 47"
-    item_color = "#CCCCCC"
+    item_color = "#BBBBBB"
     selected_item_color = "#3BB3FB"
     icon_width = 59
     icon_height = 59
