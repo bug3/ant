@@ -2,6 +2,16 @@
 
 ![](ant.gif)
 
+## Build
+
+Run this command:
+
+```bash
+/bin/bash setup.sh
+```
+
+or quickly download and setup as below.
+
 ## Install via [installer](https://github.com/bug3/installer)
 
 -   [curl](https://curl.se):
