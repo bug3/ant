@@ -41,7 +41,8 @@ if [[ $# -eq 0 ]]; then
     createGrub
     editGrub
 elif [[ $1 == "-r" ]]; then
-    echo "remove"
+    sudo rm -r $grubThemes/$theme
+    sudo sed -i '/GRUB_THEME=/s/^/# /g' $grub
 fi
 
 updateGrub
