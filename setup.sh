@@ -36,3 +36,7 @@ function updateGrub() {
         fi
     fi
 }
+
+createGrub
+editGrub
+updateGrub
