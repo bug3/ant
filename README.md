@@ -15,3 +15,7 @@
     ```bash
     bash <(wget -qO- dar.vin/install) bug3 ant
     ```
+
+## Uninstall
+
+[Add](https://github.com/bug3/installer/blob/master/USAGE.md) the -r parameter to the end of the installation code
