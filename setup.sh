@@ -2,7 +2,7 @@
 
 grub="/etc/default/grub"
 grubThemes="/usr/share/grub/themes"
-theme="ANT"
+theme="ant"
 
 function createGrub() {
     if [[ ! -d $grubThemes/$theme ]]; then
