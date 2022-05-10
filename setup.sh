@@ -37,6 +37,11 @@ function updateGrub() {
     fi
 }
 
-createGrub
-editGrub
+if [[ $# -eq 0 ]]; then
+    createGrub
+    editGrub
+elif [[ $1 == "-r" ]]; then
+    echo "remove"
+fi
+
 updateGrub
