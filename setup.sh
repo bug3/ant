@@ -9,7 +9,7 @@ function createGrub() {
         sudo mkdir $grubThemes/$theme
 
         sudo cp $grub $grub.bak
-        sudo cp -r $(pwd) $grubThemes
+        sudo cp -r * $grubThemes/$theme
     fi
 }
 
@@ -42,7 +42,7 @@ if [[ $# -eq 0 ]]; then
     editGrub
 elif [[ $1 == "-r" ]]; then
     sudo rm -r $grubThemes/$theme
-    sudo sed -i '/GRUB_THEME=/s/^/# /g' $grub
+    sudo cp $grub $grub.bak
 fi
 
 updateGrub
