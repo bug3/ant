@@ -29,3 +29,7 @@ or quickly download and setup as below.
 ## Uninstall
 
 [Add](https://github.com/bug3/installer/blob/master/USAGE.md) the -r parameter to the end of the installation code
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
