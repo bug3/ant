@@ -30,6 +30,12 @@ or quickly download and setup as below.
 
 [Add](https://github.com/bug3/installer/blob/master/USAGE.md) the -r parameter to the end of the installation code
 
+## Note
+
+- You can use [this](https://launchpad.net/~danielrichter2007/+archive/ubuntu/grub-customizer) to edit grub menu
+
+- If windows is not visible in the menu you can try this [script](https://raw.githubusercontent.com/bug3/yer6/master/scripting/add-win-to-grub.sh)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
