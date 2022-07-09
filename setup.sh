@@ -5,6 +5,8 @@ grubThemes="/usr/share/grub/themes"
 theme="ant"
 
 function createGrub() {
+    if [[ ! -d $grubThemes ]]; then sudo mkdir $grubThemes; fi
+
     if [[ ! -d $grubThemes/$theme ]]; then
         sudo mkdir $grubThemes/$theme
 
