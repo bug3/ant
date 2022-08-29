@@ -36,6 +36,8 @@ Add the -r parameter to the end of the installation [code](https://github.com/bu
 
 - If windows is not visible in the menu you can try this [script](https://raw.githubusercontent.com/bug3/yer6/master/scripting/add-win-to-grub.sh)
 
+- Currently it works perfect only for 1920x1080 resolution
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
